@@ -1,6 +1,14 @@
 .pag4{
     background-image: url("./components/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    @media (min-width: 300px) and (max-width: 600px) {
+        width: fit-content;
+    }
 }
+
 .image {
     transition: transform 1s ease-out;
     transform: translateY(0);
