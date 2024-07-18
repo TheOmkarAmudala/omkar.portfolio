@@ -5,7 +5,7 @@ import React from "react";
 function Page2() {
     return (
         <div className="lg:h-[87vh] mobile:h-[100vh] mobile:mt-[10%] lg:mt-0 pt-[5%] font-urbanist bg-gray-100">
-           <div className="lg:text-5xl mobile:text-4xl lg:mt-0 mobile:mt-9 lg:mb-0 mobile:mb-9  flex gap-4 align-middle justify-center  "> <p>My</p><p  className="text-amber-500">Work Exprience</p></div>
+           <div className="lg:text-5xl mobile:text-4xl lg:mt-0 mobile:mt-9 lg:mb-0 mobile:mb-9  flex gap-4 align-middle justify-center lg:bg-gray-100  rounded-se-2xl rounded-es-2xl mobile:bg-orange-500 lg:bg-none  lg:w- mobile::w-[350px] lg:ml-0 mobile:ml-3 "> <p>My</p><p  className="lg:text-amber-500 mobile:text-black">Work Exprience</p></div>
             <div className="w-[80vw] h-[60vh] font-semibold lg:mt-[4%] mobile:mt-[18%] grid grid-rows-3  gap-5 ">
                 <div className='ml-[10%] lg:flex mobile:inline gap-6 w-[100%]'>
                     <div className="">
