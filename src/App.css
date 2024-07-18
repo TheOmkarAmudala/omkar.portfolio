@@ -7,6 +7,7 @@
     @media (min-width: 300px) and (max-width: 600px) {
         width: fit-content;
     }
+    color: black;
 }
 
 .image {

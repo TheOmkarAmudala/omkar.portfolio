@@ -3,7 +3,7 @@ import Logo from "./logo.png"
 
 function Navbar() {
     return(
-        <div>
+        <div >
             <div className="w-[70%] bg-black h-[60px] border flex rounded-full ml-[15%] text-white text-l mt-8">
                <div className="flex w-[40%] justify-between mt-2">
                    <div className="  transition-transform duration-1000 bg-rose-400 ml-3 h-10 w-24 pt-1.5 rounded-2xl pl-7 ">Home</div>
