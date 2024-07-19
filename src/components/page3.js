@@ -24,17 +24,17 @@ function Page3() {
 
     return (
         <div className="h-[90vh] mt-[3%] overflow-hidden">
-            <div className="text-orange-500 font-urbanist text-6xl ml-[10%] flex">
+            <div className="text-orange-500 font-urbanist mobile:w-[1000px] lg:w-[100vw] lg:text-6xl mobile:text-4xl ml-[10%] lg:flex ">
                 <div>
                     Let's Have a look at <p className="text-gray-600">Projects</p>
                 </div>
-                <div className="text-2xl w-[100px] h-[40px] bg-orange-500 text-white border rounded-full ml-[50%]">
+                <div className="text-2xl w-[100px] h-[40px] lg:block mobile:relative mobile:top-[70vh] lg:top-0  bg-orange-500 text-white border rounded-full mobile:ml-[20%] lg:ml-[40%]">
                     <p className="ml-3 mt-1">See all</p>
                 </div>
             </div>
-            <Slider {...settings}>
+            <Slider {...settings} >
                 {data.map((item, index) => (
-                    <div key={index} className="w-[300px] border rounded-3xl mt-16 ">
+                    <div key={index} className="w-[300px]  border rounded-3xl lg:mt-16 mobile:mt-[20vh] ">
                         <img src={item.img} alt={`Project ${index + 1}`} />
 
                     </div>
