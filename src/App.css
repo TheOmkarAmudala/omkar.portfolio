@@ -9,6 +9,17 @@
     }
     color: black;
 }
+.pag3{
+    background-image: url("./components/back1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+    color: black;
+}
+
+
 
 .image {
     transition: transform 1s ease-out;

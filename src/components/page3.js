@@ -23,7 +23,7 @@ function Page3() {
     };
 
     return (
-        <div className="h-[90vh] mt-[3%] overflow-hidden">
+        <div  className="pag3 h-[90vh] mt-[3%] overflow-hidden">
             <div className="text-orange-500 font-urbanist mobile:w-[1000px] lg:w-[100vw] lg:text-6xl mobile:text-4xl ml-[10%] lg:flex ">
                 <div>
                     Let's Have a look at <p className="text-gray-600">Projects</p>

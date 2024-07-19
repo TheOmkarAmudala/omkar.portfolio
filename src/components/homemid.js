@@ -21,7 +21,7 @@ function Hoemid(){
     return (
 
         <div
-            className="flex flex-col align-middle mobile:w-[20vw] lg:w-[100vw] font-urbanist font-bold mobile:h-[65vh] lg:h-[110vh] w-[100vw] mobile:mt-[10vh] lg:mt-[0] mobile:overscroll-x-none mobile:ml-[0%] lg:ml-[0%] ">
+            className="pag1 flex flex-col align-middle mobile:w-[20vw] lg:w-[100vw] font-urbanist font-bold mobile:h-[65vh] lg:h-[110vh] w-[100vw] mobile:mt-[10vh] lg:mt-[0] mobile:overscroll-x-none mobile:ml-[0%] lg:ml-[0%] ">
             <div className="ml-[55%] relative top-[5%] "><img src={poto}/></div>
             <div
                 className="border-2 lg:ml-[45%] lg:w-[165px]  mobile:ml-[25vw] lg:text-[30px] mobile:text-[40px] mobile:mb-[50px] mobile:h-[8vh] mobile:w-[180px] mobile:pl-[45px]  border-gray-700  h-14 pt-0.5  mt-10 w-[140px] pl-8 rounded-full ">Hello
