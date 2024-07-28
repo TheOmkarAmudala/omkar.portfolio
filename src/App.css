@@ -19,6 +19,9 @@
     color: black;
 }
 
+body {
+    cursor: url('/src/components/logo.png'), auto;
+}
 
 
 .image {
@@ -42,4 +45,24 @@
 .image {
     animation: slideInFromBottom 1s ease-out;
 }
+
+/* For Webkit-based browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #e1caca; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e37b31; /* Color of the scroll thumb */
+    border-radius: 6px; /* Rounded corners */
+    border: 3px solid rgba(211, 106, 20, 0.47); /* Border around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Darker color on hover */
+}
+
 

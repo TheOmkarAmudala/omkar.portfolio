@@ -9,7 +9,7 @@ import img1 from "./img_1.png"
 function Page5() {
 
 
-    return (<div className="bg-orange-500  ">
+    return (<div className="bg-orange-500   cursor-pointer ">
         <div className=" bg-neutral-900  lg:h-[40vh] mobile:h-[40vh]  border-none lg:rounded-es-full mobile:rounded-se-full lg:rounded-se-none font-urbanist text-white ">
             <div className=" ml-[20%] flex justify-between">
                 <div className=" pt-[30px] mobile:text-xl lg:text-4xl"> Came Long way right ! Let's Connect</div>
@@ -27,10 +27,10 @@ function Page5() {
             </div>
             <div className="lg:flex mobile:inline  mobile:gap-6 lg:gap-[50%] font-urbanist ">
                 <div className="flex gap-6 mobile:ml-[10%] lg:ml-[10%] mt-[2%]">
-                    <img src={img} className="mobile:w-[15px] lg:w-[30px] mobile:h-5 lg:h-8"/>
-                    <img src={img1} className="mobile:w-[15px] lg:w-[30px] mobile:h-5 lg:h-8"/>
-                    <img src={union} className="mobile:w-[15px] lg:w-[30px] mobile:h-5 lg:h-8"/>
-                    <img src={whatsapp} className="mobile:w-[15px] lg:w-[30px] mobile:h-5 lg:h-8"/>
+                    <a href="https://www.linkedin.com/in/omkar-amudala-781b36286/">  <img src={img} className="mobile:w-[15px] lg:w-[30px] mobile:h-5 lg:h-8"/></a>
+                   <a href="https://github.com/TheOmkarAmudala"> <img src={img1} className="mobile:w-[15px] lg:w-[30px] mobile:h-5 lg:h-8"/></a>
+                 <a href="https://x.com/_amok_gaaru">   <img src={union} className="mobile:w-[15px] lg:w-[30px] mobile:h-5 lg:h-8"/></a>
+                    <a href="https://www.linkedin.com/in/omkar-amudala"> <img src={whatsapp} className="mobile:w-[15px] lg:w-[30px] mobile:h-5 lg:h-8"/></a>
                 </div>
                 <div className="lg:ml-0 mobile:ml-[10%] lg:mt-0 mobile:mt-9">
                     <div className="mobile:text-sm lg:text-2xl"> Contact me</div>

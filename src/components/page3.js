@@ -1,15 +1,17 @@
 import React from "react";
-import project from "./projecttwitter.png";
+import project from "./project.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import photo from "./photo.png"
+import ph from "./img4.png"
+import p from "./img5.png"
 
 function Page3() {
     const data = [
-        { img: project },
-        { img: project },
-        { img: project },
+        { img: project ,link: "https://www.linkedin.com/posts/omkar-amudala-781b36286_this-project-is-a-clone-of-the-popular-x-activity-7205117371294904321-HFMa?utm_source=share&utm_medium=member_desktop"},
+        { img: ph ,link:"https://github.com/TheOmkarAmudala/cloneport.git"},
+        { img: p,link:"https://github.com/TheOmkarAmudala/Omkar-s---Netflix-Clone.git" },
 
     ];
 
@@ -23,8 +25,8 @@ function Page3() {
     };
 
     return (
-        <div  className="pag3 h-[90vh] mt-[3%] overflow-hidden">
-            <div className="text-orange-500 font-urbanist mobile:w-[1000px] lg:w-[100vw] lg:text-6xl mobile:text-4xl ml-[10%] lg:flex ">
+        <div  className="pag3 h-[90vh] mtstary-[3%] overflow-hidden  cursor-pointer">
+            <div className="text-orange-500 lg:mt-[4%] mobile:mt-0 font-urbanist mobile:w-[1000px] lg:w-[100vw] lg:text-6xl mobile:text-4xl ml-[10%] lg:flex ">
                 <div>
                     Let's Have a look at <p className="text-gray-600">Projects</p>
                 </div>
@@ -32,16 +34,17 @@ function Page3() {
                     <p className="ml-3 mt-1">See all</p>
                 </div>
             </div>
-            <Slider {...settings} >
+            <Slider {...settings}  >
                 {data.map((item, index) => (
-                    <div key={index} className="w-[300px]  border rounded-3xl lg:mt-16 mobile:mt-[20vh] ">
-                        <img src={item.img} alt={`Project ${index + 1}`} />
+                    <div key={index} className="w-[300px] border rounded-3xl  lg:mt-[10%] mobile:mt-[20vh] ">
+                        <a href={item.link || "#"} target="_blank" rel="noopener noreferrer"> <img src={item.img}
+                                                                                                   alt={`Project ${index + 1}`}/></a>
 
                     </div>
-                ))}
+                    ))}
             </Slider>
         </div>
-    );
+);
 }
 
 export default Page3;
